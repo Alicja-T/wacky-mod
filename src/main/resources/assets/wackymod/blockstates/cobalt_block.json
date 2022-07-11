@@ -1,0 +1,5 @@
+{
+  "variants" : {
+    "":  { "model" : "wackymod:block/cobalt_block" }
+  }
+}

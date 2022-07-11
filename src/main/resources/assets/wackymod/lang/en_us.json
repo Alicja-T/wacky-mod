@@ -1,4 +1,6 @@
 {
   "item.wackymod.cobalt_ingot" : "Cobalt Ingot",
-  "item.wackymod.cursed_titanium" : "Cursed Titanium"
+  "item.wackymod.cursed_titanium" : "Cursed Titanium",
+
+  "block.wackymod.cobalt_block" : "Cobalt Block"
 }
