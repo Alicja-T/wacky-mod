@@ -1,6 +1,7 @@
 package net.atexler.wackymod.block;
 
 import net.atexler.wackymod.WackyMod;
+import net.atexler.wackymod.item.ModCreativeTab;
 import net.atexler.wackymod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f)
-                    .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .requiresCorrectToolForDrops()), ModCreativeTab.WACKY_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock( String name,
                                                                       Supplier<T> block,

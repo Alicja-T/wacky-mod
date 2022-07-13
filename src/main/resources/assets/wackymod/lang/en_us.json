@@ -2,5 +2,7 @@
   "item.wackymod.cobalt_ingot" : "Cobalt Ingot",
   "item.wackymod.cursed_titanium" : "Cursed Titanium",
 
-  "block.wackymod.cobalt_block" : "Cobalt Block"
+  "block.wackymod.cobalt_block" : "Cobalt Block",
+
+  "itemGroup.wacky_mod" : "Wacky Items"
 }
