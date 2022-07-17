@@ -3,6 +3,8 @@
   "item.wackymod.cursed_titanium" : "Cursed Titanium",
 
   "block.wackymod.cobalt_block" : "Cobalt Block",
+  "block.wackymod.cursed_titanium_ore" : "Cursed Titanium Ore",
+  "block.wackymod.cursed_titanium_block" : "Cursed Titanium Block",
 
   "itemGroup.wacky_mod" : "Wacky Items"
 }
