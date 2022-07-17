@@ -17,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CURSED_TITANIUM = ITEMS.register("cursed_titanium",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.WACKY_TAB)));
+
+    public static final RegistryObject<Item> RAW_CURSED_TITANIUM = ITEMS.register("raw_cursed_titanium",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.WACKY_TAB)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

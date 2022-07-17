@@ -27,7 +27,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeTab.WACKY_TAB);
     public static final RegistryObject<Block> CURSED_TITANIUM_ORE = registerBlock("cursed_titanium_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f)
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2f)
                     .requiresCorrectToolForDrops()), ModCreativeTab.WACKY_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock( String name,

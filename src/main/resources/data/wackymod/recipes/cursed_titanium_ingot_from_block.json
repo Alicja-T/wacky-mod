@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cursed_titanium_ingot",
+  "ingredients": [
+    {
+      "item": "wackymod:cursed_titanium_block"
+    }
+  ],
+  "result": {
+    "item": "wackymod:cursed_titanium_ingot",
+    "count": 9
+  }
+}
