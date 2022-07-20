@@ -2,10 +2,12 @@
   "item.wackymod.cobalt_ingot" : "Cobalt Ingot",
   "item.wackymod.cursed_titanium" : "Cursed Titanium",
   "item.wackymod.raw_cursed_titanium" : "Raw Cursed Titanium",
+  "item.wackymod.dowsing_rod" : "Dowsing Rod",
 
   "block.wackymod.cobalt_block" : "Cobalt Block",
   "block.wackymod.cursed_titanium_ore" : "Cursed Titanium Ore",
   "block.wackymod.cursed_titanium_block" : "Cursed Titanium Block",
 
-  "itemGroup.wacky_mod" : "Wacky Items"
+  "itemGroup.wacky_mod" : "Wacky Items",
+  "item.wackymod:dowsing_rod_no_valuables" : "No valuable blocks."
 }

@@ -1,6 +1,7 @@
 package net.atexler.wackymod.item;
 
 import net.atexler.wackymod.WackyMod;
+import net.atexler.wackymod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +21,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_CURSED_TITANIUM = ITEMS.register("raw_cursed_titanium",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.WACKY_TAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeTab.WACKY_TAB)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
