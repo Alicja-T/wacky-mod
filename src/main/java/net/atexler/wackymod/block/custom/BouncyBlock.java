@@ -21,7 +21,7 @@ public class BouncyBlock extends Block {
 
        if(pEntity instanceof LivingEntity){
            Vec3 vec3 = pEntity.getDeltaMovement();
-           pEntity.setDeltaMovement(vec3.x, vec3.y + 0.5f, vec3.z);
+           pEntity.setDeltaMovement(vec3.x, vec3.y + 0.75f, vec3.z);
        }
        super.stepOn(pLevel, pPos, pState, pEntity);
     }

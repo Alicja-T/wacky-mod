@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_CURSED_TITANIUM = ITEMS.register("raw_cursed_titanium",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.WACKY_TAB)));
 
+    public static final RegistryObject<Item> FORTUNE_COOKIE = ITEMS.register("fortune_cookie",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.WACKY_TAB).food(ModFoods.FORTUNE_COOKIE)));
+
     public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
             () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeTab.WACKY_TAB)));
     public static void register(IEventBus eventBus) {
