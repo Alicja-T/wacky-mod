@@ -2,6 +2,7 @@ package net.atexler.wackymod.block;
 
 import net.atexler.wackymod.WackyMod;
 import net.atexler.wackymod.block.custom.BouncyBlock;
+import net.atexler.wackymod.block.custom.SpinBlock;
 import net.atexler.wackymod.item.ModCreativeTab;
 import net.atexler.wackymod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -32,6 +33,9 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()), ModCreativeTab.WACKY_TAB);
     public static final RegistryObject<Block> BOUNCY_BLOCK = registerBlock("bouncy_block",
             () -> new BouncyBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(2f)
+                    .requiresCorrectToolForDrops()), ModCreativeTab.WACKY_TAB);
+    public static final RegistryObject<Block> SPIN_BLOCK = registerBlock("spin_block",
+            () -> new SpinBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(2f)
                     .requiresCorrectToolForDrops()), ModCreativeTab.WACKY_TAB);
     private static <T extends Block> RegistryObject<T> registerBlock( String name,
                                                                       Supplier<T> block,
