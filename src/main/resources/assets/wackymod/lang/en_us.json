@@ -12,5 +12,8 @@
   "block.wackymod.cursed_titanium_block" : "Cursed Titanium Block",
 
   "itemGroup.wacky_mod" : "Wacky Items",
-  "item.wackymod:dowsing_rod_no_valuables" : "No valuable blocks."
+  "item.wackymod:dowsing_rod_no_valuables" : "No valuable blocks.",
+  "tooltip.wackymod.dowsing_rod.tooltip.shift": "Right click to find valuable blocks",
+  "tooltip.wackymod.dowsing_rod.tooltip" : "Press §eSHIFT§r for more info",
+  "tooltip.wackymod.bouncy_block" : "This block will make you bounce"
 }
