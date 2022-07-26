@@ -1,5 +1,6 @@
 package net.atexler.wackymod.item.custom;
 
+import net.atexler.wackymod.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -64,8 +65,7 @@ public class DowsingRodItem extends Item {
     }
 
     private boolean isValuable(Block block) {
-        return block == Blocks.DIAMOND_ORE || block == Blocks.COAL_ORE
-                || block == Blocks.IRON_ORE || block == Blocks.COPPER_ORE;
+        return ModTags.Blocks.DOWSING_ROD_VALUABLES.contains(block);
     }
 
 }
