@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "wackymod:block/cursed_titanium_block",
+    "top": "wackymod:block/cursed_titanium_block",
+    "side": "wackymod:block/cursed_titanium_block"
+  }
+}

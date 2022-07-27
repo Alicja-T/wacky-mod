@@ -10,6 +10,8 @@
   "block.wackymod.spin_block" : "Spin Block",
   "block.wackymod.cursed_titanium_ore" : "Cursed Titanium Ore",
   "block.wackymod.cursed_titanium_block" : "Cursed Titanium Block",
+  "block.wackymod.cursed_titanium_stairs" : "Cursed Titanium Stairs",
+  "block.wackymod.cursed_titanium_slab" : "Cursed Titanium Slab",
 
   "itemGroup.wacky_mod" : "Wacky Items",
   "item.wackymod:dowsing_rod_no_valuables" : "No valuable blocks.",

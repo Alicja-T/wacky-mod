@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wackymod:block/cursed_titanium_slab"
+    },
+    "type=double": {
+      "model": "wackymod:block/cursed_titanium_planks"
+    },
+    "type=top": {
+      "model": "wackymod:block/cursed_titanium_slab_top"
+    }
+  }
+}
